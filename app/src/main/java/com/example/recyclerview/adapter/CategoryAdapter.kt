@@ -25,7 +25,6 @@ class CategoryAdapter(
 
     // hier werden neue ViewHolder erstellt
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
-
         // das itemLayout wird gebaut
         val adapterLayout = LayoutInflater.from(parent.context)
             .inflate(R.layout.category_item, parent, false)

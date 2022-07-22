@@ -5,7 +5,7 @@ import com.example.recyclerview.data.Repository
 
 class MainViewModel : ViewModel() {
 
-    val repo = Repository()
+    private val repo = Repository()
 
     val vacations = repo.vacations
 
